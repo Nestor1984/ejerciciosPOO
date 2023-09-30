@@ -1,0 +1,47 @@
+<!-- 
+    Crea una clase Calculadora con métodos para realizar operaciones matemáticas básicas como suma, resta,
+     multiplicación y división. Crea instancias de la clase Calculadora y realiza operaciones con ellas.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Para el encabezado (heading 1, heading 3) y labels-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Gothic+A1:wght@100&family=Lilita+One&family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <h1>Calculadora</h1>
+        <img src="imagenes/descarga.png" alt="Calculadora" id="imagen-calculadora">
+
+        <h3>Menu:</h3>
+        <form action="3-Ejercicio.php" method="post">
+            <ol>
+                <li>Sumar (+)<input type="radio" name="opcion-elegida" value=1 checked> </li>
+                <li>Restar (-)<input type="radio" name="opcion-elegida" value=2> </li>
+                <li>Multiplicar (x)<input type="radio" name="opcion-elegida" value=3> </li>
+                <li>Dividir (/)<input type="radio" name="opcion-elegida" value=4> </li>
+            </ol>
+
+            <label for="numero-1">Ingresar primer numero</label>
+            <input type="number" name="primer-numero" id="numero-1" required>
+
+            <br><br>
+ 
+            <label for="numero-2">Ingresar segundo numero</label>
+            <input type="number" name="segundo-numero" id="numero-2" required>
+
+            <br><br>
+
+            <input type="submit" value="Enviar" class="boton">
+        </form>
+    </main>
+</body>
+</html>

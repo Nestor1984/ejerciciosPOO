@@ -1,0 +1,12 @@
+h1, h3, label {
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+#imagen-calculadora{
+    border-width: 5px;
+    border-color: bisque;
+    border-style: ridge;
+}

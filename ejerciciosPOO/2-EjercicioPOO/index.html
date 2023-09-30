@@ -1,0 +1,68 @@
+<!--
+Ejercicio de una cafetera:
+Enunciado: Crea una clase llamada "Cafetera" que tenga los siguientes métodos y atributos:
+Atributos:
+capacidadMaxima (privado): la capacidad máxima de la cafetera en centímetros cúbicos.
+cantidadActual (privado): la cantidad actual de café en la cafetera en centímetros cúbicos.
+Métodos:
+__construct(): constructor predeterminado que establece la capacidad máxima en 1000 c.c. y la cantidad actual en cero (cafetera vacía).
+llenarCafetera(): llena la cafetera hasta su capacidad máxima.
+servirTaza($capacidadTaza): sirve una taza de café con una capacidad específica. Si la capacidad de la taza es mayor que la cantidad actual de café, muestra un mensaje indicando que no alcanza para una taza y sugiere recargar la cafetera. Si la capacidad de la taza es menor o igual que la cantidad actual de café, resta la capacidad de la taza a la cantidad actual de café.
+vaciarCafetera(): vacía la cafetera, es decir, establece la cantidad actual de café en cero.
+agregarCafe($rellenar): agrega una cantidad específica de café a la cafetera. Si la cantidad actual de café más la cantidad a agregar supera la capacidad máxima, la cantidad actual se establece en la capacidad máxima.
+mostrar(): muestra la capacidad máxima y la cantidad actual de café en la cafetera.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+
+        <h1>Ejercicio 2 POO</h1>
+
+        <!--Listas MENU-->
+        <ol>
+            <li>Llenar Cafetera.</li>
+            <li>Servir Taza.</li>
+            <li>Vaciar Cafetera.</li>
+            <li>Agregar Cafe.</li>
+            <li>Mostrar.</li>
+        </ol>
+
+        <!--Formularios-->
+        <form action="2-EjercicioPOO.php" method="post">
+            
+            <label>Ingresar Opcion:</label>
+            <br><br>
+
+            <label>Opcion 1: </label>
+            <input type="radio" name="opcion-elegida" value=1 checked>
+            <br><br>
+
+            <label>Opcion 2: </label>
+            <input type="radio" name="opcion-elegida" value=2>
+            <br><br>
+
+            <label>Opcion 3: </label>
+            <input type="radio" name="opcion-elegida" value=3>
+            <br><br>
+
+            <label>Opcion 4: </label>
+            <input type="radio" name="opcion-elegida" value=4>
+            <br><br>
+
+            <label>Opcion 5: </label>
+            <input type="radio" name="opcion-elegida" value=5>
+            <br><br>
+
+            <button type="submit">ENVIAR OPCION</button>
+
+        </form>
+    </main>
+</body>
+</html>
